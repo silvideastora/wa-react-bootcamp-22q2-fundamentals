@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Todo from '../components';
+import Todo from '../components/Todo';
 
 export default function Home() {
     const [tasks, setTasks] = useState([]);     // variables de estado para la lista de tareas

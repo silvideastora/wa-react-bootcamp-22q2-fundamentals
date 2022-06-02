@@ -12,7 +12,7 @@ export default function Home() {
     setTextInput('');
     }
 };
-    const deleteClick = (e, taskToRemove) => {
+    const deleteClick = (taskToRemove) => {
         setTasks(tasks.filter(task => task !== taskToRemove))
     };
     return (

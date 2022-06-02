@@ -6,7 +6,7 @@ function Todo({task, deleteClick}) {
         <ol>
             {task}
             <button
-            onClick={e => deleteClick(e, task)}>
+            onClick={e => deleteClick(task)}>
             -
             </button>
             </ol>
